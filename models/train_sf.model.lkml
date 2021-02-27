@@ -9,14 +9,14 @@ datagroup: train_sf_default_datagroup {
   max_cache_age: "1 hour"
 }
 
-# explore: first_derived {}
+ explore: first_derived {}
 
 persist_with: train_sf_default_datagroup
 
-# explore: applicable_roles {
-#   group_label: "Roles"
-#   label: "Applicable"
-# }
+explore: applicable_roles {
+  group_label: "Roles"
+  label: "Applicable"
+}
 
 explore: columns {}
 
