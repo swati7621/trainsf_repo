@@ -13,10 +13,10 @@ datagroup: train_sf_default_datagroup {
 
 persist_with: train_sf_default_datagroup
 
-explore: applicable_roles {
-  group_label: "Roles"
-  label: "Applicable"
-}
+# explore: applicable_roles {
+#   group_label: "Roles"
+#   label: "Applicable"
+# }
 
 explore: columns {}
 
