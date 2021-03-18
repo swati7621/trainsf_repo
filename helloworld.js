@@ -15,6 +15,17 @@ looker.plugins.visualizations.add({
       ],
       display: "radio",
       default: "large"
+    },
+    font_color: {
+      type: "string",
+      label: "Font Color",
+      values: [
+       {"Red": "red"},
+        {"Green": "green"},
+        {"Yellow": "yellow"}
+    ],
+    display: "radio",
+    default: "large"
     }
   },
   // Set up the initial state of the visualization
@@ -23,6 +34,7 @@ looker.plugins.visualizations.add({
     // Insert a <style> tag with some styles we'll use later.
     element.innerHTML = `
       <style>
+
         .hello-world-vis {
           /* Vertical centering */
           height: 100%;
@@ -33,14 +45,29 @@ looker.plugins.visualizations.add({
         }
         .hello-world-text-large {
           font-size: 72px;
-          color: #FF0000;
         }
         .hello-world-text-med {
           font-size: 50px;
-          color: #00FF00;
         }
         .hello-world-text-small {
           font-size: 18px;
+        }
+
+        .hello-world-vis_color {
+          /* Vertical centering */
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: left;
+          text-align: left;
+        }
+        .hello-world-text-red {
+          color: #FF0000;
+        }
+        .hello-world-text-green {
+          color: #00FF00;
+        }
+        .hello-world-text-yellow {
           color: yellow;
         }
       </style>
