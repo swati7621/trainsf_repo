@@ -28,8 +28,8 @@ looker.plugins.visualizations.add({
           height: 100%;
           display: flex;
           flex-direction: column;
-          justify-content: center;
-          text-align: center;
+          justify-content: left;
+          text-align: left;
         }
         .hello-world-text-large {
           font-size: 72px;
