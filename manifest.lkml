@@ -18,3 +18,9 @@ visualization: {
   label: "Force Directed JS Code"
   file: "forcedirected.js"
 }
+
+visualization: {
+  id: "Hello World 18March"
+  label: "Hello World 18March"
+  file: "helloworld.js"
+}
