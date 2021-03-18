@@ -12,3 +12,9 @@ visualization: {
   label: "Force Directed Graph"
   file: "force.js"
 }
+
+visualization: {
+  id: "Force Directed"
+  label: "Force Directed JS Code"
+  file: "forcedirected.js"
+}
