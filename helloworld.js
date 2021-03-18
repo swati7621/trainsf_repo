@@ -33,15 +33,15 @@ looker.plugins.visualizations.add({
         }
         .hello-world-text-large {
           font-size: 72px;
-          font-color: #FF0000;
+          color: #FF0000;
         }
         .hello-world-text-med {
           font-size: 50px;
-          font-color: #00FF00;
+          color: #00FF00;
         }
         .hello-world-text-small {
           font-size: 18px;
-          font-color: yellow;
+          color: yellow;
         }
       </style>
     `;
