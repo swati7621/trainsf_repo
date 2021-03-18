@@ -13,7 +13,7 @@ looker.plugins.visualizations.add({
         {"Small": "small"}
       ],
       display: "radio",
-      default: "large"
+      default: "small"
     }
   },
   // Set up the initial state of the visualization
