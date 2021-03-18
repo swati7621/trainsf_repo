@@ -72,7 +72,9 @@ looker.plugins.visualizations.add({
         .hello-world-text-red {
           color: #FF0000;
         }
-        .hello-world-text-green {
+        .hello-worl
+
+        d-text-green {
           color: #00FF00;
         }
         .hello-world-text-yellow {

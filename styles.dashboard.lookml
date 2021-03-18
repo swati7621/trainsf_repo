@@ -1,5 +1,5 @@
 - dashboard: styles
-  title: " Styles"
+  title: " styles"
   layout: newspaper
   preferred_viewer: dashboards-next
   elements:
@@ -98,6 +98,7 @@
     fields: [applicable_roles.grantee, applicable_roles.count, applicable_roles.role_name]
     sorts: [applicable_roles.count desc]
     limit: 500
+    bg_color: "red"
     column_limit: 50
     show_view_names: false
     show_row_numbers: false
@@ -131,7 +132,7 @@
         bg_color: "#2f323a"
         fg_color: white
     header_font_color: white
-    header_background_color: black
+    header_background_color: red
     x_axis_gridlines: false
     y_axis_gridlines: true
     show_y_axis_labels: true
@@ -297,3 +298,6 @@
     col: 12
     width: 12
     height: 6
+
+    embed_style:
+    background_color: "red"
