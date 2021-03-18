@@ -10,7 +10,7 @@ looker.plugins.visualizations.add({
       label: "Font Size",
       values: [
         {"Large": "large"},
-        {"med": "med"},
+        {"Med": "med"},
         {"Small": "small"}
       ],
       display: "radio",
@@ -33,12 +33,15 @@ looker.plugins.visualizations.add({
         }
         .hello-world-text-large {
           font-size: 72px;
+          font-color: red;
         }
         .hello-world-text-med {
           font-size: 50px;
+          font-color: green;
         }
         .hello-world-text-small {
           font-size: 18px;
+          font-color: yellow;
         }
       </style>
     `;
