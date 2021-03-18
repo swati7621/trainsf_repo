@@ -2,20 +2,23 @@ connection: "train_sf"
 
 # include all the views
 include: "/INFORMATION_SCHEMA/**/*.view"
-include: "/*.view"
+include: "/views/*.view"
 
 datagroup: train_sf_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
   max_cache_age: "1 hour"
 }
 
- explore: first_derived {}
+explore: call_center {}
 
 persist_with: train_sf_default_datagroup
 
 explore: applicable_roles {
-  group_label: "Roles"
-  label: "Applicable"
+  description: "description string"
+  label: "desired label name"
+  group_label: "label to use as a heading in the Explore menu"
+  view_label: "field picker heading to use for the Explore's fields"
+  #extends: []
 }
 
 explore: columns {}
