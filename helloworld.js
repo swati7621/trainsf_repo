@@ -42,12 +42,13 @@ looker.plugins.visualizations.add({
           flex-direction: column;
           justify-content: center;
           text-align: center;
-          background-color:powderblue;
+
         }
         .hello-world-text-large {
           font-size: 72px;
           color: #FF0000;
           font-family:verdana;
+          background-color:powderblue;
         }
         .hello-world-text-med {
           font-size: 50px;
