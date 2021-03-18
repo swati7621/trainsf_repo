@@ -40,17 +40,20 @@ looker.plugins.visualizations.add({
           height: 100%;
           display: flex;
           flex-direction: column;
-          justify-content: left;
-          text-align: left;
+          justify-content: center;
+          text-align: center;
         }
         .hello-world-text-large {
           font-size: 72px;
+          color: #FF0000;
         }
         .hello-world-text-med {
           font-size: 50px;
+          color: #00FF00;
         }
         .hello-world-text-small {
           font-size: 18px;
+          color: yellow;
         }
 
         .hello-world-vis_color {
