@@ -41,6 +41,7 @@ view: call_center {
 
   dimension: cc_country {
     type: string
+    map_layer_name: us_states
     sql: ${TABLE}."CC_COUNTRY" ;;
   }
 

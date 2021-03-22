@@ -8,16 +8,6 @@ project_name: "train_sf"
 # }
 
 visualization: {
-  id: "Force"
-  label: "Force Directed Graph"
-  file: "force.js"
-}
-visualization: {
-  id: "bar"
-  label: "bar Graph test"
-  file: "testingbar.js"
-}
-visualization: {
   id: "Force Directed"
   label: "Force Directed JS Code"
   file: "forcedirected.js"

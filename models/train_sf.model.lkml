@@ -3,13 +3,16 @@ connection: "train_sf"
 # include all the views
 include: "/INFORMATION_SCHEMA/**/*.view"
 include: "/views/*.view"
-include: "/styles.dashboard"
 datagroup: train_sf_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
   max_cache_age: "1 hour"
 }
 
-explore: call_center {}
+case_sensitive: no
+
+explore: call_center {
+  label: "Display Name - Call Center"
+}
 
 persist_with: train_sf_default_datagroup
 
